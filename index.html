@@ -1,227 +1,175 @@
 <!DOCTYPE html>
-<html lang="en" >
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Foodie Documentation Page</title>
-  <link rel="stylesheet" href="./style.css">
-
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Foodie Documentation Page</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
 <body>
-<!-- partial:index.partial.html -->
-<nav id="navbar">
-  <header>Foodie Documentation</header>
-  <ul>
-    <li><a class="nav-link" href="#Introduction">Introduction</a></li>
-    <li>
-      <a class="nav-link" href="#What_you_should_already_know"
-        >What is foodie</a
-      >
-    </li>
-    <li>
-      <a class="nav-link" href="#JavaScript_and_Java">Why pwa</a>
-    </li>
-    <li><a class="nav-link" href="#Hello_world">Technologies used</a></li>
-
-     <li><a class="nav-link" href="#Declaring_variables">Why react</a>
-    </li>
-    <li><a class="nav-link" href="#Variable_scope">Api</a></li>
-    <li><a class="nav-link" href="#Global_variables">Running the app on local machine</a></li>
-    <li><a class="nav-link" href="#Constants">App link </a></li>
-
-</nav>
-<main id="main-doc">
-  <section class="main-section" id="Introduction">
-    <header>Introduction</header>
-    <article>
-      <p>
-       Foodie is a food swipping PWA where you can swipe on food and get the recipe based on your preference.
-       
-      </p>
-      <div>current UI version:</div>
-      <div><img src="img/Screenshot_2.png" alt=" current UI version:" width="500" height="600"></div> 
-      <p>
-        
-       
+    <nav id="nav-bar">
+        <ul>
+          <li id="nav-header">Foodie documentation</li>
+          <li><a class="nav-link" href="#getting_started">Introduction</a></li>
+          <li><a class="nav-link" href="#simple_demo">What is foodie</a></li>
+          <li><a class="nav-link" href="#button">Why pwa</a></li>
+          <li><a class="nav-link" href="#slider">Technologies used</a></li>
+          <li><a class="nav-link" href="#listbox">Why react</a></li>
+          <li><a class="nav-link" href="#Variable_scope">Api</a></li>
+           <li><a class="nav-link" href="#Global_variables">Running the app on local machine</a></li>
+           <li><a class="nav-link" href="#Constants">App link </a></li>
+        </ul>
+      </nav>
       
-    </article>
-  </section>
-  <section class="main-section" id="What_you_should_already_know">
-    <header>What is foodie</header>
-    <article>
-      <p>Foodie is a progressive web application which uses react to render the view.Food Swipping App Where you can swipe on food or restaurant based on your preference
-      </p>
-
+      <main id="main-doc">
       
-    </article>
-  </section>
-  <section class="main-section" id="JavaScript_and_Java">
-    <header>Why pwa</header>
-    <article>
-      <p>
-        the term “progressive web apps” to describe apps that, thanks to modern web technologies, are able to provide an improved experience for their users.
-         Since then, progressive web applications have gained enough interest and support in the web scene to be considered the state of art of modern web development.
-        
-      </p>
-
-    
-      <p>
-        Advantages of PWAs #
-
-The Advantages of PWAs include:
-<ul >
-  <li>
-  <p><strong>No dedicated team needed:</strong> The same existing web team can be used to implement a mobile version of the company website or a brand new PWA. This translates to reduced expenses planned for the application. Meanwhile, implementing native apps, using a specific technology stack often requires a dedicated team of developers.</p>
-  </li>
-  <li>
-  <p><strong>Immediately online:</strong> The new version of a PWA can be deployed online at any time without having to fulfill Apple or Play Store checks; they do not run the risk of having the app rejected because some of the requirements are not fulfilled.</p>
-  </li>
-  <li>
-  <p><strong>Progressive:</strong> If the user has an old browser (e.g., IE 11), the application will still work as a normal web app without delivering any advanced functionality.
-  In this sense, a PWA delivers progressively features to the target system and gracefully skips the unsupported ones.</p>
-  </li>
-  <li>
-  <p><strong>Only one version to maintain:</strong> There is only one live version available. Therefore, no added complexity for maintaining multiple versions of the app is required.</p>
-  </li>
-  <li>
-  <p><strong>Responsive:</strong> PWAs fit any device, including desktop, mobile, or tablet, as well as resolution.</p>
-  </li>
-  <li>
-  <p><strong>Available offline:</strong> Thanks to service workers, <span >it is possible to cache data locally and make it available even without a valid network connection.</span> There are different caching strategies available, and each of them is suited for a specific scenario, which maximizes the performance and response time.</p>
-  </li>
-  <li>
-  <p><strong>Re-engage:</strong> PWAs increase users’ re-engagement through web notifications. They work in the background, allowing you to reach your users even if the application is closed.</p>
-  </li>
-  <li>
-  <p><strong>Installable:</strong> Thanks to the web app manifest, a PWA can be installed on the users’ devices’ home screens.</p>
-  </li>
-  <li>
-  <p><strong>Small footprint:</strong> PWAs typically have a small size because they use the browser functionality and Web APIs (whenever supported). Therefore, unlike native apps, they don’t require further modules or packages.</p>
-  </li>
-  </ul>
-      </p>
-    </article>
-  </section>
-  <section class="main-section" id="Hello_world">
-    <header>Technologies used</header>
-    <article>
-      Technologies used to create this project are 
-      <code>
-        React 
-        javasctipt
-        Serviceworkers 
-        git 
-        postman 
-        details coming soon..
+        <section id="getting_started" class="main-section">
+          <header>Foodie Documentation</header>
+          <article>
+            <p>Foodie is a food swipping PWA where you can swipe on food and get the recipe based on your preference.</p>
+            <p>To run the application in local machine go to this link <a href="https://github.com/Projects-college/Foodiereact" target="_blank">project</a>  </p>
+            <code>run npm install</code>
+            <code>npm run build</code>
+            <code>npm start</code>
+             
             
-      </code>
+            <p>If you would like additional information about  you can check out the documentation.
+          </article>
+        </section>
+        <hr>
+        <section id="simple_demo" class="main-section">
+          <header>What is foodie</header>
+          <article>
+            <p>Foodie is a progressive web application which uses react to render the view.Food Swipping App Where you can swipe on food or restaurant based on your preference</p>
+            
+          </article>
+        </section>
+        <hr>
+        <section id="button" class="main-section">
+          <header>Why pwa</header>
+          <article>
+            <p>the term “progressive web apps” to describe apps that, thanks to modern web technologies, are able to provide an improved experience for their users.
+                Since then, progressive web applications have gained enough interest and support in the web scene to be considered the state of art of modern web development.</p>
+                Advantages of PWAs #
 
-
-    </article>
-  </section>
-  <section class="main-section" id="Declaring_variables">
-    
-    <header>Why react</header>
-    <p>
-      React is a JavaScript UI development library. It is quite simple, component-based, declarative, and universal. 
-      First introduced in May 2013, it has won the affection and love of multiple front-end developers from all over the world. 
-      Simple but powerful, it is the most popular JavaScript technology for building user interfaces.
-      Armed with the support of a large and active developer community, React is often updated, thoroughly maintained, and learner-friendly.
-     
-    </p>
-    <ol><li><p>The framework is quick to set up, so the work on the project can be launched in the shortest terms possible.</p></li><li><p>User interfaces built with React are responsive and interactive because React offers a perfect opportunity to fetch and record dynamically changing data.</p></li><li><p>Due to component-based structure and reusability of these components, React greatly facilitates and accelerates the development of apps.</p></li><li><p>React.js can work for almost any project, from a simple SPA to a complex web or mobile platform.</p></li><li><p>This technology enjoys a strong support of a well-developed community, who maintain up-to-date documentation and are ready to offer a helping hand to aspiring developers.</p></li><li><p>React can be easily integrated with other frameworks or libraries, which facilitates development and makes it a great choice for both new and ongoing projects.</p></li></ol>
-    
-  </section>
-  <section class="main-section" id="Variable_scope">
-    <header>Api</header>
-    <p>
-      An application programming interface, is a computing interface that defines interactions between multiple software intermediaries. 
-      It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc. 
-    
+                The Advantages of PWAs include:
+                <ul >
+                    <li>
+                    <p><strong>No dedicated team needed:</strong> The same existing web team can be used to implement a mobile version of the company website or a brand new PWA. This translates to reduced expenses planned for the application. Meanwhile, implementing native apps, using a specific technology stack often requires a dedicated team of developers.</p>
+                    </li>
+                    <li>
+                    <p><strong>Immediately online:</strong> The new version of a PWA can be deployed online at any time without having to fulfill Apple or Play Store checks; they do not run the risk of having the app rejected because some of the requirements are not fulfilled.</p>
+                    </li>
+                    <li>
+                    <p><strong>Progressive:</strong> If the user has an old browser (e.g., IE 11), the application will still work as a normal web app without delivering any advanced functionality.
+                    In this sense, a PWA delivers progressively features to the target system and gracefully skips the unsupported ones.</p>
+                    </li>
+                    <li>
+                    <p><strong>Only one version to maintain:</strong> There is only one live version available. Therefore, no added complexity for maintaining multiple versions of the app is required.</p>
+                    </li>
+                    <li>
+                    <p><strong>Responsive:</strong> PWAs fit any device, including desktop, mobile, or tablet, as well as resolution.</p>
+                    </li>
+                    <li>
+                    <p><strong>Available offline:</strong> Thanks to service workers, <span >it is possible to cache data locally and make it available even without a valid network connection.</span> There are different caching strategies available, and each of them is suited for a specific scenario, which maximizes the performance and response time.</p>
+                    </li>
+                    <li>
+                    <p><strong>Re-engage:</strong> PWAs increase users’ re-engagement through web notifications. They work in the background, allowing you to reach your users even if the application is closed.</p>
+                    </li>
+                    <li>
+                    <p><strong>Installable:</strong> Thanks to the web app manifest, a PWA can be installed on the users’ devices’ home screens.</p>
+                    </li>
+                    <li>
+                    <p><strong>Small footprint:</strong> PWAs typically have a small size because they use the browser functionality and Web APIs (whenever supported). Therefore, unlike native apps, they don’t require further modules or packages.</p>
+                    </li>
+                    </ul>
+            </p>
+            
+          </article>
+        </section>
+        <hr>
+        <section id="slider" class="main-section">
+          <header>Technologies used</header>
+          <article>
+            <p>Technologies used to create this project are </p>
+                <code>Jacascript</code>
+                <code>React</code>
+                <code>Postman</code>
+                <code>Serviceworkers</code>
+                <code>git</code>
+                <code>netlify</code>
+                
+                 
+         
+             
+          </article>
+        </section>
+        <hr>
+        <section id="listbox" class="main-section">
+          <header>Why react</header>
+          <article>
+            <p> React is a JavaScript UI development library. It is quite simple, component-based, declarative, and universal. 
+                First introduced in May 2013, it has won the affection and love of multiple front-end developers from all over the world. 
+                Simple but powerful, it is the most popular JavaScript technology for building user interfaces.
+                Armed with the support of a large and active developer community, React is often updated, thoroughly maintained, and learner-friendly.</p>
+            
+          </article>
+        </section>
+        <section class="main-section" id="Variable_scope">
+            <header>Api</header>
+            <p>
+              An application programming interface, is a computing interface that defines interactions between multiple software intermediaries. 
+              It defines the kinds of calls or requests that can be made, how to make them, the data formats that should be used, the conventions to follow, etc. 
+            
+                
+            </p>
+            <article>
+              The Edamam B2B API is accessed by sending HTTPS requests on specific URLs as described below. The base URL is https://api.edamam.com, and you obtain the full URL by appending request’s path to the base URL, for example, https://api.edamam.com/search.
         
-    </p>
-    <article>
-      The Edamam B2B API is accessed by sending HTTPS requests on specific URLs as described below. The base URL is https://api.edamam.com, and you obtain the full URL by appending request’s path to the base URL, for example, https://api.edamam.com/search.
-
-      On success, the API returns HTTP code 200 OK and the body contains the result of the query in JSON format. In case of errors, the API returns an error code (e.g. 404 NOT FOUND). 
-      The body may contain useful information in HTML format. Client programs should use only the response codes, as the bodies are provided for the convenience of the client developers.
-     
+              On success, the API returns HTTP code 200 OK and the body contains the result of the query in JSON format. In case of errors, the API returns an error code (e.g. 404 NOT FOUND). 
+              The body may contain useful information in HTML format. Client programs should use only the response codes, as the bodies are provided for the convenience of the client developers.
+             
+              
+            </article>
+          </section>
+          <section class="main-section" id="Global_variables">
+            <header>Running the app on local machine</header>
+            <article>
+              <p>
+                clone the reposatory 
+                
+              </p>
+        
+             
+              <code>run npm install
+              
+              npm start
+              
+              npm run build</code>
+              <p>
+                
+              </p>
+        
+        
+            </article>
+          </section>
+          <section class="main-section" id="Constants">
+            <header>App link</header>
+            <article>
+              <p>
+                <a href="https://heuristic-panini-e430fe.netlify.app/" target="_blank">Live app</a> 
+                
+              </p>
+        
+              <p>
+                
+                
+              </p>
+            </article>
+          </section>
       
-    </article>
-  </section>
-  <section class="main-section" id="Global_variables">
-    <header>Running the app on local machine</header>
-    <article>
-      <p>
-        clone the reposatory 
-        
-      </p>
-
-     
-      <code>run npm install
-      
-      npm start
-      
-      npm run build</code>
-      <p>
-        
-      </p>
-
-
-    </article>
-  </section>
-  <section class="main-section" id="Constants">
-    <header>App link</header>
-    <article>
-      <p>
-        Coming soon...
-        
-      </p>
-
-      <p>
-        
-        
-      </p>
-    </article>
-  </section>
-  <!-- <section class="main-section" id="Constants">
-    <header>Constants</header>
-    <article>
-      <p>
-        You can create a read-only, named constant with the const keyword. The
-        syntax of a constant identifier is the same as for a variable
-        identifier: it must start with a letter, underscore or dollar sign and
-        can contain alphabetic, numeric, or underscore characters.
-      </p>
-
-      <code>const PI = 3.14;</code>
-      <p>
-        A constant cannot change value through assignment or be re-declared
-        while the script is running. It has to be initialized to a value.
-      </p>
-
-      <p>
-        The scope rules for constants are the same as those for let block scope
-        variables. If the const keyword is omitted, the identifier is assumed to
-        represent a variable.
-      </p>
-
-      <p>
-        You cannot declare a constant with the same name as a function or
-        variable in the same scope. For example:
-      </p>
-
-      <code
-        >// THIS WILL CAUSE AN ERROR function f() {}; const f = 5; // THIS WILL
-        CAUSE AN ERROR ALSO function f() { const g = 5; var g; //statements
-        }</code
-      >
-      However, object attributes are not protected, so the following statement
-      is executed without problems.
-      <code
-        >const MY_OBJECT = {"key": "value"}; MY_OBJECT.key = "otherValue";</code
-      >
-    </article>
-  </section> -->
- 
-  </body>
+      </main>
+    
+</body>
 </html>
